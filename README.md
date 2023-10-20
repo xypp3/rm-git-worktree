@@ -17,7 +17,11 @@ git add .
 
 git commit -m "init"
 ```
-- After that Git needs your GitHub repository link _(the place where you open your codespace from)_ to connect to the new Git we just made. Run `git remote add origin <GitHub repo URL>` in your codespaces terminal _(remember to replace <URL> with YOUR url)_
+- After that Git needs your GitHub repository link as shown in the image below:
+_![screenshot of example repo with URL highlighted](./example-repo.png)_
+
+
+Use this link to connect to the new Git we just made. Run `git remote add origin <GitHub repo URL>` in your codespaces terminal _(remember to replace <URL> with YOUR url)_
 - Finally you can sync your local Git and GitHub by running this command:
 
 `git pull --rebase origin main`
